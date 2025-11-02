@@ -2,7 +2,7 @@ Walter
 ======
 
 Single header library for writing unit tests in C with fewer
-complications by avoiding boilerplate.
+complications by avoiding boilerplate, by [irek](https://api.github.com/users/ir33k).
 
 	walter.h        Library with full documentation and licence
 	demo/           Working demonstration test programs AKA examples
@@ -11,6 +11,20 @@ complications by avoiding boilerplate.
 	build           Script to build and run tests
 
 Expected to work on POSIX systems and NOT on Windows.
+
+
+Installation
+------------
+
+Run:
+```bash
+$ npm i walter.c
+```
+
+And then include `walter.h` as follows:
+```c
+#include "node_modules/walter.c/walter.h"
+```
 
 
 Example
@@ -52,3 +66,10 @@ Program exit code is a number of failed tests.
 
 Full documentation with longer example is in `walter.h`.  More working
 examples can be found in `demo` directory.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/walter.c)
